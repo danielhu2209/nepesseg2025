@@ -38,7 +38,7 @@ def beolvasas():
             telepulesek.append(telepules)
     return telepulesek
 def megye_adatok(telepulesek):
-    megye_kod = input(f"Kérem a megye kódját: ")
+    megye_kod = input(f"Kérem a megye kódját: ").upper()
     tel_szam = 0
     ossz_lak = 0
     varos_lak = 0 
